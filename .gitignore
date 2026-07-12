@@ -1,0 +1,64 @@
+# ---------------------------------------------------
+# .gitignore para proyectos Unity
+# ---------------------------------------------------
+
+# Carpetas generadas por Unity (se regeneran solas, NO subir)
+# Sin barra inicial para que apliquen tambien dentro de Shooter3DDoom/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Cache de assets y artefactos
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+.consulo/
+
+# Archivos de proyecto de IDEs
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.slnx
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Archivos comprimidos (no versionar el proyecto empaquetado)
+*.rar
+*.zip
+*.7z
+
+# Crash logs
+sysinfo.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Artefacto accidental (redireccion /dev/null en Windows)
+/dev/
+
+# Archivos meta de carpetas ignoradas
+!/[Aa]ssets/**/*.meta
